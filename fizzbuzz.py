@@ -1,5 +1,5 @@
 print("Welcome to the FizzBuzz Game")
-int(input("Please enter a number: "))
+nr = int(input("Please enter a number: "))
 
 
 def fizz_buzz(input):
@@ -12,5 +12,6 @@ def fizz_buzz(input):
 
     return input
 
+for x in range(nr):
+    print(fizz_buzz(x))
 
-print(fizz_buzz(3))
