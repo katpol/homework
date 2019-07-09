@@ -1,4 +1,4 @@
-p1#rint("Welcome to the FizzBuzz Game")
+print("Welcome to the FizzBuzz Game")
 int(input("Please enter a number: "))
 
 
