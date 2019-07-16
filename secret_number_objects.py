@@ -2,7 +2,7 @@ import json
 import random
 import datetime
 
-secret = random.randint(1, 1)
+secret = random.randint(1, 30)
 attempts = 0
 guess = 0
 
